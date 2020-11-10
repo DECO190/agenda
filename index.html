@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Minha Agenda</h1>
+    </header>
+
+    <main>
+
+        <div id = 'input_container'>
+            <div class="input_grp">
+                <p>Nome</p>
+                <input type="text" id = 'name_int'>
+            </div>
+            
+            <div class="input_grp">
+                <p>Telefone</p>
+                <input type="number" id = 'tel_int'>
+            </div>
+            
+            <div class="input_grp">
+                <p>E-mail</p>
+                <input type="text" id = 'email_int'>
+            </div>
+
+            <button id = 'save_bttn' onclick="save()">Salvar!</button>
+
+        </div>
+
+        <div id = 'save_container'>
+
+           
+            <div id = 'container_save_box'>
+                
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src = 'script.js'></script>
+
+</body>
+</html>
